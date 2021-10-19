@@ -1,0 +1,36 @@
+ *{padding: 0; margin: 0; box-sizing: border-box; outline: none; text-decoration: none; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+ body{cursor: url(../image/mouse.png),auto; }
+ main{width: 80%; margin: 0 auto;   }
+ .header{background-color: #70a9ab;height: 5rem;}
+ .header h1{color: #fff; text-align: center; text-transform: uppercase;}
+ /*Content*/
+ .content{background-color: #1b85cc; height: auto; }
+ .table {display: flex; justify-content: center; align-items: center; flex-direction: column; }
+ .table > table{ color:#fff;font-size: 20px; margin-top:2rem}
+ .table  tr th,td{padding: 1rem; }
+ .table tr td{text-align: center;}
+ .table thead{background-color: #093e61;}
+ .btn-edit, .btn-delete{color:#fff; background-color:#1fc270 ; padding: .5rem; border-radius: .5rem; }
+ .btn-delete{background-color: #a83434;}
+ /*form cad and edite*/
+ .form{display: flex; justify-content: center; align-items: center; flex-direction: column; }
+ .form > form {margin-top:2rem; margin-bottom: 20vh;}
+ .form input{width: 40rem; height: 2.4rem; margin-top: .5rem; border-radius: 5px;   border:0;  padding: 1rem; font-size: 20px;}
+ .form button{border:0; width: 10rem; height: 2rem; margin-top:1rem; border-radius:.5rem ;  cursor: url(../image/mouse.png),auto; color:#ffff;font-weight: 700;}
+ .form button[type="submit"]{background-color: #1fc270; }
+ .form button[type="reset"]{background-color: #a83434; }
+ .form a, .table #link{padding: .2rem; text-decoration: none; color:#fff;background-color: #093e61;border-radius:.5rem ;cursor: url(../image/mouse.png),auto;}
+ #link{margin-bottom:.5rem; font-weight: 700;}
+ /*Message of alert*/
+ .msg{text-transform: uppercase; color:#fff;background-color:#1fc270;}
+ 
+ /*Page of error*/
+ .error{text-align: center; color:#fff;text-transform: uppercase; padding-top:10rem}
+ 
+ .footer{background-color: #70a9ab; height: 10rem;}
+ .footer p{font-size: 18px; text-align: center; color:#fff; padding-top: 4rem;}
+
+
+ /*Media queries*/
+
+ 
